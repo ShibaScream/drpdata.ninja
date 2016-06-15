@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Questrial%7CLato' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/tictactoe.css">
+    <!--    This is called an unnecessary amount of code to generate every possible needed favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Tic Tac Toe!</title>
+</head>
+
+<body>
+    <header>
+        <img id="navicon" src="images/menu.svg">
+        <nav>
+		  <ul class="nav">
+			<li class="menu"><a href="index.html" class="uppercase">Home</a></li>
+			<li class="menu"><a href="aboutme.html" class="uppercase">Learn More</a></li>
+            <li class="menu"><a href="projects.html" class="uppercase">See My Projects</a></li>
+			<li class="menu"><a href="contact.html" class="uppercase">Contact Me</a></li>
+		  </ul>
+	   </nav>
+    </header>
+    <h1 class="headers">Play Tic Tac Toe!</h1>
+    <article class="main_article">
+        <p>This simple game is just a place for me to test my JavaScript skills 
+            and take them to the next level using a simple tic tac toe game as the template. Right now this
+            only has interactivity between 2 human players. In the next iteration, I intend to built a simple A.I. in JavaScript so you 
+            can play against the computer.</p>
+    </article>
+    <button class="button" id="start">Start the Game!</button>
+    <button class="button" id="clear">Clear the Board!</button>
+    <div id='info' class="centered_text"></div>
+    <div id="board"></div>
+    <div class="scores main_article">
+        <h3 class="headers">Scores</h3>
+        <p>Player 1:</p>
+        <p>Player 2:</p>
+    </div>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/tictactoe.js"></script>
+</body>
+</html>

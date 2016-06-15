@@ -1,0 +1,285 @@
+body {
+    background-color: #f1c40f;
+	font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0 !important;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Questrial', sans-serif;
+}
+
+ul {
+    padding-left: 0px !important;
+}
+
+.note {
+    visibility: visible;
+    display: block;
+    position: absolute;
+    width: 25%;
+    margin-left: 70%;
+    margin-top: 10%;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+    transform: rotate(20deg);
+}
+
+.button {
+    display: block;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 1em;
+}
+
+.centered {
+	display: block;
+	visibility: visible;
+	position: absolute;
+	padding-left: 9%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.cup {
+	position: relative;
+    margin-top: 10%;
+    background-color: #2c3e50;
+	clear: left;
+    float: left;
+    width: 70%;
+    height: 75%;
+	z-index: 100;
+}
+
+.top {
+	position: relative;
+    margin-top: -10%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b9b9b+0,595959+100 */
+	background: #9b9b9b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #9b9b9b 0%, #595959 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #9b9b9b 0%,#595959 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #9b9b9b 0%,#595959 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b9b9b', endColorstr='#595959',GradientType=0 ); /* IE6-9 */
+    max-width: 100%;
+    height: 30px;
+    border: .25em solid black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.coffee {
+    position: relative;
+    background-color: saddlebrown;
+    height: 20px;
+	margin-top: 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: gray;
+}
+
+
+.handle {
+	position: relative;
+    width: 30%;
+    height: 88%;
+	margin-left: 100%;
+    background-color: #2c3e50;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.hole {
+	position: relative;
+    top: 13%;
+    width: 75%;
+    height: 75%;
+    background-color: #f1c40f;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+.bottom {
+	position: relative;
+	clear: left;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 90%;
+    margin-bottom: -20%;
+    background-color: #2c3e50;
+    width: 100%;
+    height: 50px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+	box-shadow: 5px 35px 40px #3B3B3B;
+	z-index: 1;
+}
+
+.headers {
+	clear: left;
+    margin-top: 3em;
+	text-align: center;
+}
+
+header {
+    margin: 0;
+}
+
+header >nav {
+    width: 100%;
+    margin: 0;
+	display: block;
+}
+
+.nav {
+	width: 75%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+	margin: 0 auto;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+#iam {
+	display: inline-block;
+	min-width: 8em;
+    padding-bottom: .1em;
+	border-bottom: 1px solid black;
+}
+
+.main_article {
+    width: 75%;
+    font-size: 1.25em;
+    padding: 1em;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact_logos {
+    width: 75%;
+    padding: 1em;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact_logos >a >img {
+    display: block;
+    float: left;
+    margin: 1em;
+}
+
+.centered_text {
+    text-align: center;
+}
+
+@media screen and (max-width: 860px) {
+    #navicon {
+        width: 4em;
+        margin: 1% 1%;
+        position: absolute;
+        visibility: visible;
+        transition-duration: 1s;
+    }
+
+/*
+    #navicon:hover {
+        width: 4.5em;
+        transition-duration: 1s;
+    }
+    
+*/
+    .nav {
+        background-color: #4C7FF3;
+        padding-top: 4em;
+        padding-bottom: 0;
+        width: 100%;
+        height: 0;
+        visibility: collapse;
+    }
+
+    .menu {
+        background-color: #4C7FF3;
+        overflow: hidden;
+        text-decoration: none !important;
+        list-style: none;
+        border-bottom: 1px solid black;
+        padding-top: 3%;
+        color: white;
+    }
+    
+    .menu:hover {
+        background-color: #1F7ABE;
+        transition-duration: 1s;
+    }
+
+    .menu a {
+        display: block;
+        height: 3em;
+        margin-left: 1em;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    #navicon {
+        width: 0;
+        height: 0;
+        margin: 1% 1%;
+        position: absolute;
+        visibility: hidden;
+        transition-duration: 1s;
+    }
+
+    /* if number of menu items change the
+    formula for the percentage is:
+    newWidth = (100 - (4 * n)) / n */
+    .menu {
+        visibility: visible;
+/*        height: 24px;*/
+        width: 23%;
+        text-align: center;
+        margin: 1%;
+        list-style: none;
+        text-decoration: none !important;
+        float: left;
+        background-color: #4C7FF3;
+        transition-duration: 1s;
+        box-shadow: 0 .25em gray;
+        color: white;
+    }
+
+    .menu:hover {
+        background-color: #1F7ABE;
+        box-shadow: .2em .25em gray;
+        transition-duration: 1s;
+    }
+
+    .menu a {
+        display: block;
+        height: 24px;
+        padding: 3%;
+        text-decoration: none;
+        color: white;
+    }
+}

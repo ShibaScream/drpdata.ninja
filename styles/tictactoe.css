@@ -1,0 +1,17 @@
+#board {
+    clear: left;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.square {
+    float: left;
+    border: 1px solid black;
+    font-size: 4vw;
+    text-align: center;
+}
+
+#info {
+    clear: both;
+    height: 2em;
+}
