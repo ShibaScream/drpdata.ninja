@@ -15,6 +15,19 @@ ul {
     padding-left: 0px !important;
 }
 
+.form {
+    list-style: none;
+}
+
+.form >li {
+    margin-bottom: 1em;
+}
+
+#whatAreYou {
+    border: 1px solid black;
+    box-shadow: .1em .25em gray;
+}
+
 .note {
     visibility: visible;
     display: block;
@@ -175,6 +188,11 @@ header >nav {
     margin: 0 auto;
 }
 
+input[type="checkbox"] {
+    height: 1.75em;
+    width: 1.75em;
+    
+}
 .contact_logos {
     width: 75%;
     padding: 1em;

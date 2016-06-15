@@ -50,7 +50,7 @@ function showMobileMenu() {
     }
 }
 
-//menu.navicon.addEventListener('click', showMobileMenu, false);
+menu.navicon.addEventListener('click', showMobileMenu, false);
 
 window.onload = function () {
     'use strict';
