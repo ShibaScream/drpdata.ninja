@@ -1,5 +1,8 @@
+html {
+    background-color: rgba(241, 196, 15, 1);
+}
+
 body {
-    background-color: #f1c40f;
 	font-family: 'Lato', sans-serif;
     font-size: 100%;
     line-height: 1.5;
