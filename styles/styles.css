@@ -184,6 +184,7 @@ ul {
 	clear: left;
     margin-top: 3em;
 	text-align: center;
+    text-shadow: 1px 1px gray;
 }
 
 header {
