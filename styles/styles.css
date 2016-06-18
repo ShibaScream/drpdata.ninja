@@ -1,5 +1,8 @@
+html {
+    background-color: rgba(241, 196, 15, 1);
+}
+
 body {
-    background-color: #f1c40f;
 	font-family: 'Lato', sans-serif;
     font-size: 100%;
     line-height: 1.5;
@@ -13,6 +16,19 @@ h1, h2, h3, h4, h5, h6 {
 
 ul {
     padding-left: 0px !important;
+}
+
+.form {
+    list-style: none;
+}
+
+.form >li {
+    margin-bottom: 1em;
+}
+
+#whatAreYou {
+    border: 1px solid black;
+    box-shadow: .1em .25em gray;
 }
 
 .note {
@@ -175,6 +191,11 @@ header >nav {
     margin: 0 auto;
 }
 
+input[type="checkbox"] {
+    height: 1.75em;
+    width: 1.75em;
+    
+}
 .contact_logos {
     width: 75%;
     padding: 1em;
