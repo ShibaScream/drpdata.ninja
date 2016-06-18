@@ -1,5 +1,14 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 html {
-    background-color: rgba(241, 196, 15, 1);
+    background: rgba(241, 196, 15, 1) url(../images/laptop_white.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body {
@@ -26,9 +35,16 @@ ul {
     margin-bottom: 1em;
 }
 
-#whatAreYou {
-    border: 1px solid black;
-    box-shadow: .1em .25em gray;
+.intro {
+    margin-top: -2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#whatIAm {
+    padding-bottom: 1em;
 }
 
 .note {
@@ -184,9 +200,13 @@ header >nav {
 }
 
 .main_article {
-    width: 75%;
+    background-color: rgba(241, 196, 15, 1);
     font-size: 1.25em;
     padding: 1em;
+}
+
+.middle_text {
+    width: 75%;
     display: block;
     margin: 0 auto;
 }
@@ -207,6 +227,11 @@ input[type="checkbox"] {
     display: block;
     float: left;
     margin: 1em;
+}
+
+.clear {
+    display: block;
+    clear: both;
 }
 
 .centered_text {
