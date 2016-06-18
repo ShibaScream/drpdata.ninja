@@ -62,11 +62,26 @@ ul {
 .button {
     display: block;
     margin: 1em auto;
-    padding: 1em;
-    background-color: blue;
+    padding: .5em;
+    background-color: #4C7FF3;
     color: white;
     border: none;
     font-size: 1em;
+    box-shadow: 0 .25em gray;
+    transition-duration: .5s;
+}
+
+.button:hover {
+    background-color: #5085FF;
+    box-shadow: .2em .25em gray;
+    transition-duration: .5s;
+}
+
+.button:active {
+    transition-duration: .5s;
+    background: #406BCC;
+    box-shadow: 0 .25em gray inset;
+    border-color: #a9db80;
 }
 
 .centered {
@@ -244,16 +259,8 @@ input[type="checkbox"] {
         margin: 1% 1%;
         position: absolute;
         visibility: visible;
-        transition-duration: 1s;
     }
-
-/*
-    #navicon:hover {
-        width: 4.5em;
-        transition-duration: 1s;
-    }
-    
-*/
+        
     .nav {
         background-color: #4C7FF3;
         padding-top: 4em;
@@ -274,8 +281,8 @@ input[type="checkbox"] {
     }
     
     .menu:hover {
-        background-color: #1F7ABE;
-        transition-duration: 1s;
+        background-color: #406BCC;
+        transition-duration: .5s;
     }
 
     .menu a {
@@ -294,7 +301,6 @@ input[type="checkbox"] {
         margin: 1% 1%;
         position: absolute;
         visibility: hidden;
-        transition-duration: 1s;
     }
 
     /* if number of menu items change the
@@ -310,15 +316,22 @@ input[type="checkbox"] {
         text-decoration: none !important;
         float: left;
         background-color: #4C7FF3;
-        transition-duration: 1s;
+        transition-duration: .5s;
         box-shadow: 0 .25em gray;
         color: white;
     }
 
     .menu:hover {
-        background-color: #1F7ABE;
+        background-color: #5085FF;
         box-shadow: .2em .25em gray;
-        transition-duration: 1s;
+        transition-duration: .5s;
+    }
+    
+    .menu:active {
+        transition-duration: .5s;
+        background: #406BCC;
+        box-shadow: 0 .25em gray inset;
+        border-color: #a9db80;
     }
 
     .menu a {
