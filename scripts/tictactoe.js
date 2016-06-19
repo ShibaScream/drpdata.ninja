@@ -107,6 +107,7 @@ Game.prototype.addSymbol = function (square, index) {
             this.info.innerHTML = '<h2>Player 1\'s Turn!</h2>';
         }
         this.checkWinOrDraw();
+        square.removeEventListener();
     }
 };
 
@@ -131,8 +132,7 @@ Game.prototype.checkWinOrDraw = function () {
                 break;
             }
         }
-    }
-    if (this.numFilledSquares >= 9) {
+    } else if (this.numFilledSquares >= 9) {
         this.info.innerHTML = '<h2>It\'s a Draw</h2>';
         draw = true;
     }

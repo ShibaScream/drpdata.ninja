@@ -41,20 +41,18 @@
     </header>
     <h1 class="headers">Play Tic Tac Toe!</h1>
     <article class="main_article">
-        <p>This simple game is just a place for me to test my JavaScript skills 
-            and take them to the next level using a simple tic tac toe game as the template. Right now this
-            only has interactivity between 2 human players. In the next iteration, I intend to built a simple A.I. in JavaScript so you 
-            can play against the computer.</p>
+        <div class="middle_text">
+            <p class="centered_text">This simple game is just a place for me to test my JavaScript skills 
+                and take them to the next level using a simple tic tac toe game as the template. Right now this
+                only has interactivity between 2 human players. In the next iteration, I intend to built a simple A.I. in JavaScript so you 
+                can play against the computer.</p>
+            <button class="button btn-left" id="start">Start the Game!</button>
+            <button class="button btn-right" id="clear">Clear the Board!</button>
+            <div id='info' class="centered_text"></div>
+            <span class="clear"></span>
+            <div id="board"></div>
+        </div>
     </article>
-    <button class="button" id="start">Start the Game!</button>
-    <button class="button" id="clear">Clear the Board!</button>
-    <div id='info' class="centered_text"></div>
-    <div id="board"></div>
-    <div class="scores main_article">
-        <h3 class="headers">Scores</h3>
-        <p>Player 1:</p>
-        <p>Player 2:</p>
-    </div>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/tictactoe.js"></script>
 </body>

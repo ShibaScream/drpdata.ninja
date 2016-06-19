@@ -84,6 +84,14 @@ ul {
     border-color: #a9db80;
 }
 
+.btn-left {
+    float: left;
+}
+
+.btn-right {
+    float: right;
+}
+
 .centered {
 	display: block;
 	visibility: visible;
