@@ -29,7 +29,7 @@
 
 <body>
     <header>
-        <img id="navicon" src="images/menu.svg">
+        <img id="navicon" alt="menu button for mobile menu" src="images/menu.svg">
         <nav>
 		  <ul class="nav">
 			<li class="menu"><a href="index.html" class="uppercase">Home</a></li>
@@ -39,20 +39,20 @@
 		  </ul>
 	   </nav>
     </header>
-    <h1 class="headers">Play Tic Tac Toe!</h1>
-    <article class="main_article">
+    <section class="main_section">
+        <h1 class="headers">Play Tic Tac Toe!</h1>
         <div class="middle_text">
-            <p class="centered_text">This simple game is just a place for me to test my JavaScript skills 
-                and take them to the next level using a simple tic tac toe game as the template. Right now this
-                only has interactivity between 2 human players. In the next iteration, I intend to built a simple A.I. in JavaScript so you 
-                can play against the computer.</p>
+            <p class="centered_text">This seemingly simple game is just a place for me to test my JavaScript skills 
+                and take them to the next level using tic tac toe game as the template. Right now this has a very dumb AI--
+                it has no awareness of the board and simply picks random available spaces. I am working on creating a much 
+                more sophisticated AI using the Minimax Algorithm. In the meantime, have fun winning!</p>
             <button class="button btn-left" id="start">Start the Game!</button>
             <button class="button btn-right" id="clear">Clear the Board!</button>
-            <div id='info' class="centered_text"></div>
+            <section id='info' class="centered_text"></section>
             <span class="clear"></span>
             <div id="board"></div>
         </div>
-    </article>
+    </section>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/board.js"></script>
     <script src="scripts/game.js"></script>

@@ -38,6 +38,9 @@ function Board(num) {
     */
     this.spaces = [];
     
+    //  Public: make announcements in the info section
+    this.info = document.getElementById('info');
+    
     /* 
     *   Public: boardsize allows for this to become a more 
     *   dynamic game that goes beyond standard 3x3 tic tac toe board
