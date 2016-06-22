@@ -48,6 +48,14 @@ ul {
     padding-bottom: 1em;
 }
 
+#clearbtn {
+    display: none;
+}
+
+.answers {
+    display: none;
+}
+
 .note {
     visibility: visible;
     display: block;
@@ -234,7 +242,6 @@ header >nav {
 
 .middle_text {
     width: 75%;
-    display: block;
     margin: 0 auto;
 }
 

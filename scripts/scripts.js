@@ -54,8 +54,9 @@ menu.navicon.addEventListener('click', showMobileMenu, false);
 
 window.onload = function () {
     'use strict';
-    // function is in string due to bug with Safari
+
     if (isHomePage()) {
+        // function is in string due to bug with Safari
         setInterval("loopWords(words)", 3000);
     }
 

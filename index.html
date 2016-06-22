@@ -45,22 +45,46 @@
         </div>
     </section>
     <section id="whatAreYou" class="main_section">
-        <div class="middle_text">
+        <div class="middle_text" id="questions">
             <h3>Tell me what you are looking for!</h3>
             <h4>I am looking for someone who (check all that apply):</h4>
-            <form name="lookingfor">
-                <ul class="form">
-                    <li><input type="checkbox" value="data"/>Loves crunching data</li>
-                    <li><input type="checkbox" value="data"/>Creates awesome data visualizations</li>
-                    <li><input type="checkbox" value="data"/>Lives/Breathes HTML/CSS</li>
-                    <li><input type="checkbox" value="data"/>Has nifty JavaScript skills</li>
-                    <li><input type="checkbox" value="data"/>Cannot charm snakes, but makes charming Python Code</li>
-                    <li><input type="checkbox" value="data"/>Is the fastest learner in the Pacific Northwest</li>
-                </ul>
-                <button name="submit" type="button" class="button">Submit</button>
-            </form>
+            <ul class="form">
+                <li class="chkbx"><input type="checkbox" value="0"/><label>Loves crunching data</label></li>
+                <li class="chkbx"><input type="checkbox" value="1"/><label>Creates awesome data visualizations</label></li>
+                <li class="chkbx"><input type="checkbox" value="2"/><label>Lives/Breathes HTML/CSS</label></li>
+                <li class="chkbx"><input type="checkbox" value="3"/><label>Has nifty JavaScript skills</label></li>
+                <li class="chkbx"><input type="checkbox" value="4"/><label>Cannot charm snakes, but makes charming Python Code</label></li>
+                <li class="chkbx"><input type="checkbox" value="5"/><label>Is the fastest learner in the Pacific Northwest</label></li>
+            </ul>
+            <button class="button" id="submitbtn">Submit</button>
         </div>
+        <div class="middle_text answers">
+            <h4>I have experience working with data.</h4>
+            <p>As the Data Manager &amp; Analyst at MOHAI, I manage all of our database work and have experience writing SQL queries, cleaning data, and more!</p>
+        </div>
+        <div class="middle_text answers">
+            <h4>I build compelling visualizations and better metrics reports!</h4>
+            <p>At MOHAI, I have built up their metrics reporting from scratch using Tableau. I create weekly and monthly reports, as well as ad-hoc reports to answer specific questions, using data visualization to show the complete story in a succinct and understandable manner.</p>
+        </div>
+        <div class="middle_text answers">
+            <h4>Hey I know HTML and CSS!</h4>
+            <p>I help maintain MOHAI's website and am currently studying Frontend Web Development to further enhance my skills. I built this website from scratch.</p>
+        </div>
+        <div class="middle_text answers">
+            <h4>I write Javascript</h4>
+            <p>I have been studying computer programming for almost a year now. I am certainly not an expert (yet), but I am working hard towards being one!</p>
+        </div>
+        <div class="middle_text answers">
+            <h4>Python is where I started</h4>
+            <p>The first computer language I picked up was Python and I love working in Python. It's an incredible powerful language for many types of applications!</p>
+        </div>
+        <div class="middle_text answers">
+            <h4>I am truly a fast learner</h4>
+            <p>As an example, when I was hired at MOHAI, I was given a month to learn Tableau and a brand new CRM (Blackbaud's Altru CRM), and deliver end-of-year reports. Not only did I accomplish that task, but I have continued to excel and deepen my knowledge in those areas. In less than a year, I was awarded the "Altru Champion of the Year" by Blackbaud for being a top contributor within the Altru forums and an advanced user that was able to answer any questions thrown my way.</p>
+        </div>
+        <button class="button" id="clearbtn">Reset Questions</button>
     </section>
 	<script src="scripts/scripts.js"></script>
+    <script src="scripts/whatIAm.js"></script>
 </body>
 </html>
