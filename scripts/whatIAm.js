@@ -109,6 +109,14 @@ function storeData(qa) {
 };
 
 window.onload = function () {
+    
+    'use strict';
+
+    // this is a carryover from the scripts.js file to start the loop on the homepage
+    if (isHomePage()) {
+        // function is in string due to bug with Safari
+        setInterval("loopWords(words)", 3000);
+    }
 
     // check which view should be shown (questions or answers)
     if ((storageAvailable('localStorage') && localStorage['showAnswers']) || answers.length > 0) {

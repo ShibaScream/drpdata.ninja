@@ -51,13 +51,3 @@ function showMobileMenu() {
 }
 
 menu.navicon.addEventListener('click', showMobileMenu, false);
-
-window.onload = function () {
-    'use strict';
-
-    if (isHomePage()) {
-        // function is in string due to bug with Safari
-        setInterval("loopWords(words)", 3000);
-    }
-
-};
